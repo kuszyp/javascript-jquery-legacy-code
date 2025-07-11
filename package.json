@@ -1,0 +1,28 @@
+{
+    "name": "javascript-jquery-legacy-code",
+    "version": "0.0.1",
+    "description": "CLI tool that walks through js files and finds jQuery usages",
+    "main": "src/index.js",
+    "scripts": {
+        "dev": "node src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kuszyp/javascript-jquery-legacy-code.git"
+    },
+    "keywords": [
+        "javascript",
+        "lexer",
+        "tokenizer",
+        "parser",
+        "nodejs",
+        "jquery"
+    ],
+    "author": "kuszyp",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kuszyp/javascript-jquery-legacy-code/issues"
+    },
+    "homepage": "https://github.com/kuszyp/javascript-jquery-legacy-code#readme"
+}
