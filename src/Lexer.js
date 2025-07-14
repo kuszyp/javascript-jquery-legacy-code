@@ -1,6 +1,6 @@
 // src/Lexer.js
 
-const tokens = require("./tokenTypes");
+const tokens = require("./TokenType");
 const Token = require("./Token");
 
 module.exports = class {

@@ -1,6 +1,6 @@
 // __tests__/Lexer.test.js
 
-const tokens = require("../src/tokenTypes");
+const tokens = require("../src/TokenType");
 const Token = require("../src/Token");
 
 module.exports = [

@@ -1,7 +1,7 @@
 // src/index.js
 
 const Lexer = require("./Lexer");
-const TokenTypes = require("./tokenTypes.js");
+const types = require("./TokenType");
 const fs = require("fs");
 const path = require("path");
 
@@ -24,7 +24,7 @@ while (!eof) {
     let token = lxr.nextToken();
     tokens.push(token);
 
-    if (token.type == TokenTypes.ILLEGAL) {
+    if (token.type == types.ILLEGAL) {
         eof = true;
     }
 }

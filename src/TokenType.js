@@ -1,4 +1,4 @@
-// tokenTypes.js
+// src/TokenType.js
 
 module.exports = {
     ILLEGAL: "ILLEGAL", // Illegal token type
