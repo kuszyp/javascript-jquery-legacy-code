@@ -12,13 +12,4 @@ module.exports = {
     DIVIDE: "/",
     ASSIGN: "=",
     EQUAL: "==",
-
-    Keyword: "Keyword",
-    Identifier: "Identifier",
-    Number: "Number",
-    String: "String",
-    Operator: "Operator",
-    Punctuation: "Punctuation",
-    Whitespace: "Whitespace",
-    Comment: "Comment",
 };
